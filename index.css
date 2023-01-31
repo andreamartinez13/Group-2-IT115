@@ -2,20 +2,28 @@ h1 {
   text-align: center;
   font-size: 4rem;
   padding: 1rem;
+  margin-left: 2rem;
+  position: fixed;
 }
 .Carousel {
   width: 50%;
-  height: -10rem;
+  height: 50%;
+  margin-top: 10rem;
+  position: fixed;
 }
 
 body {
   background-image: url("images/dan-tuykavin-O4aaYHvBIG0-unsplash.jpg");
+  background-attachment: fixed;
 }
-.Roman-Rottweiler-Text {
-  font-weight: 500;
-  font-size: 1.3rem;
+.Rottweiler-Text {
+  font-weight: 600;
+  font-size: 1.1rem;
   color: #000;
   padding: 1rem;
   max-width: 50%;
   float: right;
+  margin-top: 8.5rem;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: rgb(255, 255, 255);
 }
