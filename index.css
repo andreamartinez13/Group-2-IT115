@@ -6,11 +6,13 @@ h1 {
 .Carousel {
   width: 50%;
   height: -10rem;
+  margin-left: 25rem;
 }
 
 body {
-  background-image: url("images/dan-tuykavin-O4aaYHvBIG0-unsplash.jpg");
+  background-color: slategray;
 }
+
 .Roman-Rottweiler-Text {
   font-weight: 500;
   font-size: 1.3rem;
@@ -18,4 +20,17 @@ body {
   padding: 1rem;
   max-width: 50%;
   float: right;
+}
+
+.text-container {
+  border-radius: 25px;
+  padding: 1rem;
+  margin: 1rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  background-color: burlywood;
+}
+
+.text-heading {
+  font-weight: bold;
 }
